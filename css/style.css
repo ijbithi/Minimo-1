@@ -1,0 +1,250 @@
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	scr: url(../fontsplayfair/PlayfairDisplay-Regular.otf);
+}
+@font-face{
+	font-family: Ubuntu-R;
+	scr: url(../fonts/ubuntu/Ubuntu-L.ttf);
+}
+/*common css start*/
+body{
+	font-family: OPlayfairDisplay-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #929292;
+	margin: 0;
+	padding: 0;
+}
+/*common css end*/
+/*header start*/
+header{
+	padding: 25px 0;
+}
+.wrapper {
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+}
+.logo {
+	width: 12%;
+	float: left;
+}
+
+.logo a img{
+	width: 100%;
+}
+.menu {
+	width: 60%;
+	float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 4PX 35PX;
+	display: inline-block;
+	color: #929292;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #929292;
+}
+/*header end*/
+/*banner start*/
+.banner {}
+.b-img {}
+.b-img img {
+	width: 100%;
+}
+/*gateway start*/
+.gateway{
+	padding: 70px 0;
+}
+.wrapper2{
+	width: 80%;
+	margin: 0 auto;
+}
+.p-title{
+	margin: 0;
+	font-family:  'Ubuntu-R';
+	font-size: 14px;
+	font-weight: 300;
+	color: #D2D1CD;
+	}
+.h-content{
+	font-size: 30px;
+	font-weight: 400;
+	color: #808080;
+}
+.p-content{
+	margin: 0;
+	line-height: 25px;
+}
+.m-t-20{
+	margin-top: 20px;
+}
+.m-b-30{
+	margin-bottom: 30px;
+}
+.m-b-45{
+	margin-bottom: 45px;
+}
+/*gateway end*/
+/*blog start*/
+.wrapper3{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+}
+.blog{
+
+}
+.single-blog{
+	width: 45%;
+}
+.b1-img{
+	margin-bottom: 20px;
+}
+.b1-img img{
+	width: 100%;
+}
+.mtb-2535{
+	margin: 25px 0 35px;
+}
+.wrapper4{
+	padding: 60px 0;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+}
+/*blog end*/
+/*cs start*/
+.signup{
+    
+}
+.s-from{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.s-from input {
+	font-family: OPlayfairDisplay-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    width: 345px;
+    height: 45px;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s-from input:focus{
+	outline: 0;
+}
+.s-from button{
+	position: absolute;
+	top: 15px;
+	right: 0;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+
+}
+.s-from button:focus{
+	outline: 0;
+}
+
+.s-h1{
+	margin-top: 0;
+	margin-bottom: 70px;
+	font-size: 30px;
+    font-weight: 400;
+    color: #393939;    
+}
+.news{
+	padding: 70px 0;
+	text-align: center;
+	min-height: 200px;
+	background-color: #ddd;
+}
+
+/*cs end*/
+/*button start*/
+.blog-button{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.blog-button button{
+	font-family: OPlayfairDisplay-Regular;
+	font-size: 20px;
+	font-weight: 400;
+	color:#626262 ;
+	margin: 130px 0;
+	width: 165px;
+	height: 60px;
+	background-color: white;
+	border: 1px solid #626262;
+	cursor: pointer;
+	transition: .33s;
+}
+.blog-button button:hover{
+	background-color:#626262;
+	color: white;
+}	
+/*button end*/
+/*footer st*/
+.wf{
+	width: 100%;
+	height: 100px;
+	background-color: #f0f0f0 ;
+	padding: 10px 0;
+}
+.text{
+	padding: 30px 0;
+	width: 30%;
+	float: left;
+}
+.text ul{
+	list-style: none;
+	
+}
+.text ul li{
+	float: left;
+}
+.text ul li a {
+	margin: 0 10px;
+	text-decoration: none;
+	color: black;
+}
+.social{
+	padding: 30px 0;
+	width: 40%;
+	float: right;
+}
+.social ul{
+	float: right;
+	list-style: none;
+}
+.social ul span{
+	color: black;
+}
+.social ul li{
+	float: left;
+}
+.social ul li a{
+	margin: 0 10px;
+	text-decoration: none;
+}
+/*footer end*/
